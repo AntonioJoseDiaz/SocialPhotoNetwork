@@ -1,0 +1,184 @@
+div.gallery-container {
+    display: grid;
+    grid-gap: .3%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.photo-block {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+
+.photo-title {
+    font-size: 140%;
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+.photo-score {
+    font-size: 130%;
+    font-family: monospace;
+}
+
+img.photo-image {
+    height: auto;
+    width: 100%;
+}
+
+.photo-vote-block>img {
+    max-height: 40px;
+    padding-right: .5em;
+    padding-left: .5em;
+    cursor: pointer;
+}
+
+div.title-block {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #eeeeee;
+}
+
+#title {
+    font-size: 300%;
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    background-color: rgb(0, 174, 255);
+}
+
+#navbarNav {
+    background-color: rgba(0, 174, 255, 0.589);
+}
+
+.content {
+    border: 1px solid #444444;
+    color: #222222;
+}
+
+p.footer {
+    font-style: italic;
+}
+
+#logo-lsi {
+    width: 100px;
+    height: auto;
+}
+
+#logo-lsi:hover {
+    cursor: pointer;
+    filter: blur(4px);
+}
+
+#errors-container div {
+    cursor: pointer;
+}
+
+img.icono {
+    border-radius: 8px;
+    width: 25%;
+    height: 25%;
+    margin-left: -50%;
+    margin-bottom: 10px;
+}
+
+img.icono2 {
+    border-radius: 8px;
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+}
+
+body {
+    background-color: rgb(89, 216, 255);
+}
+
+a {
+    color: black;
+}
+
+.separado {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.perfil {
+    grid: 1 / 1 / span2/span1;
+    margin-left: -50px;
+}
+
+.caja {
+    width: 20%;
+    border: rgb(76, 71, 71);
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(240, 248, 255);
+}
+
+.contenedor {
+    height: 90%;
+    border: rgb(76, 71, 71);
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(240, 248, 255);
+}
+
+.lineaperfil {
+    background-color: rgb(240, 248, 255);
+    border: rgb(54, 203, 248);
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: Berkshire Swash;
+}
+
+#huella {
+    height: 50px;
+}
+
+.añadir {
+    margin-left: 200px;
+}
+
+img {
+    height: 160px;
+}
+
+.izquierda {
+    margin-left: 10%;
+}
+
+.derecha {
+    margin-right: 15%;
+}
+
+img.iconico {
+    border-radius: 8px;
+    width: 15%;
+    height: auto;
+}
+
+.cuadro_foto {
+    height: 90%;
+    width: 90%;
+    border: rgb(76, 71, 71);
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(240, 248, 255);
+}
+
+.nombre {
+    margin-top: -70px;
+}
+
+.perfilname {
+    margin-top: 20px;
+}
